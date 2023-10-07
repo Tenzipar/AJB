@@ -1,0 +1,389 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1472&q=80'); /* Replace with your background image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    font-family: 'Helvetica', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-blend-mode: multiply;
+    color: #333; /* Set text color for better readability on the background image */
+}
+
+/* Style the header section */
+.header-content {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for better text readability */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+header {
+    background-color: #2a2a2a;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 24px;
+    opacity: 0.8;
+}
+
+
+
+
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 20px;
+    
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 50px;
+
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+nav a:hover {
+    opacity: 1;
+}
+
+
+
+
+
+
+#introduction {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff; /* Text color */
+    padding: 60px 0; /* Padding for content */
+    text-align: center;
+}
+
+.intro-content {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-image img {
+    border-radius: 50%; /* Rounded profile image */
+    width: 200px; /* Adjust image size as needed */
+    height: 200px;
+    object-fit: cover; /* Maintain aspect ratio */
+    margin-right: 20px; /* Add spacing between image and text */
+    
+}
+
+.intro-image img:hover {
+    transform: scale(1.05); /* Scale the image slightly on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.intro-text {
+    text-align: left;
+}
+
+.intro-text h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.intro-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.intro-text a {
+    color: #ffd700; /* Link color */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.intro-text a:hover {
+    color: #fff; /* Hover color */
+}
+
+
+
+
+
+/* Style the creative skills section */
+#skills {
+
+    padding: 100px 0;
+    text-align: center;
+    position: relative;
+}
+
+.skills-content {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.skills-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skill {
+    flex: 1;
+ 
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.skill i {
+    font-size: 40px;
+    color: #3498db;
+}
+
+.skill h3 {
+    font-size: 24px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.skill p {
+    font-size: 18px;
+    opacity: 0.8;
+    margin-top: 10px;
+    color: #fff;
+}
+
+/* Style the navigation menu */
+
+
+
+
+
+
+
+/* Style the portfolio section */
+#portfolio {
+    background-color: #f4f4f4;
+    padding: 40px;
+}
+
+
+
+/* Style the contact section */
+#contact {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#contact p {
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+#contact a:hover {
+    opacity: 1;
+}
+
+#about {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 100px 0; /* Increased padding for more space */
+    
+    text-align: center;
+    position: relative;
+}
+
+.about-content {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.about-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    opacity: 0.8;
+    color: #fff;
+}
+
+
+#middle {
+    padding: 100px 0; /* Increased padding for more space */
+    text-align: center;
+    position: relative;
+    padding-bottom: 5px;
+
+    
+    
+}
+
+.middle-content {
+    
+    padding: 60px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.middle-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.photo {
+    display: flex; /* Use flexbox to align items horizontally */
+    align-items: center; /* Center vertically within the container */
+    margin-bottom: 40px;
+}
+
+.photo img {
+    max-width: 100%; /* Adjust image width as needed */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 350px;
+    margin-right: 20px;
+    width: 250px;
+    height: 180px;
+}
+
+.photo p {
+    font-size: 25px;
+    opacity: 0.7;
+    color: #ffffff;
+}
+.photo img:hover {
+    transform: scale(1.05); /* Scale the image slightly on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+
+
+
+
+
+.education-content {
+    padding: 100px 0; /* Increased padding for more space */
+    text-align: center;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.education-content h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+
+}
+
+.education-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.education-image {
+    flex: 1;
+    text-align: center;
+    
+    
+}
+
+.education-image img {
+    max-width: 100%; /* Ensure that all images are of the same width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 20px; /* Example margin, if applicable */
+    width: 250px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+}
+
+.education-image img:hover {
+    transform: scale(1.05); /* Scale the image slightly on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Increase the shadow on hover */
+}
+
+.education-details {
+    flex: 2;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    
+}
+
+.education-details h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.education-date {
+    font-size: 20px;
+    opacity: 0.7;
+    color: #fff;
+}
+
+
+/* contact messaging */
+
+/* CSS Styles */
+
+
